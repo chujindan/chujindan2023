@@ -1,7 +1,7 @@
 import React from "react";
 import logo from '../logo.png';
 import { Link } from "react-router-dom";
-import { AiOutlineAppstore, AiOutlineTeam, AiOutlineQuestion, AiOutlineComment, AiOutlineSmile, AiOutlineWarning } from "react-icons/ai";
+import { AiOutlineAppstore, AiOutlineTeam, AiOutlineQuestionCircle, AiOutlineComment, AiOutlineLike, AiOutlineFileDone } from "react-icons/ai";
 
 const Home = () => {
 
@@ -30,12 +30,12 @@ const Home = () => {
                         <Link to="/chujindan" className="content"><AiOutlineTeam size={"50%"} />{menu2}</Link>
                     </div>
                     <div className="contentsRow">
-                        <Link to="/question" className="content"><AiOutlineQuestion size={"50%"} />{menu3}</Link>
+                        <Link to="/question" className="content"><AiOutlineQuestionCircle size={"50%"} />{menu3}</Link>
                         <Link to="/talk" className="content"><AiOutlineComment size={"50%"} />{menu4}</Link>
                     </div>
                     <div className="contentsRow">
-                        <Link to="/survey" className="content"><AiOutlineSmile size={"50%"} />{menu5}</Link>
-                        <Link to="/guide" className="content"><AiOutlineWarning size={"50%"} />{menu6}</Link>
+                        <Link to="/survey" className="content"><AiOutlineLike size={"50%"} />{menu5}</Link>
+                        <Link to="/guide" className="content"><AiOutlineFileDone size={"50%"} />{menu6}</Link>
                     </div>
                 </ul>
 
