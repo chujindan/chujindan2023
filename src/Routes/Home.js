@@ -23,7 +23,7 @@ const Home = () => {
                 <div id="main_openChatLink">  
                     <a href="https://open.kakao.com/o/gRyHiq1e" id="openChatLink">
                         <img src={opentalk} className="openlogo"/>{open}
-                    </a>
+                    </a> 
                 </div>
             </div>
             <div id="main_menuBox">
