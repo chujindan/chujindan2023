@@ -65,7 +65,7 @@
 }
 .openlogo {
   width: 10vw;
-  object-fit: cover;
+  object-fit: cover; 
 }
 
 /* 메뉴콘텐츠 */ 

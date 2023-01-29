@@ -19,7 +19,7 @@ const Home = () => {
                 <div id="main_logo">
                     <img src={logo} id="logo" alt="logo" />
                 </div>
-                <div id="title">총정모 길라잡이</div>
+                <div id="title">총정모 길라잡이</div> 
                 <div id="main_openChatLink">  
                     <a href="https://open.kakao.com/o/gRyHiq1e" id="openChatLink">
                         <img src={opentalk} className="openlogo"/>{open}
