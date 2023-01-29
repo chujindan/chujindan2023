@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../logo.png';
+import opentalk from '../opentalk.png';
 import { Link } from "react-router-dom";
 import { AiOutlineAppstore, AiOutlineTeam, AiOutlineQuestionCircle, AiOutlineComment, AiOutlineLike, AiOutlineFileDone } from "react-icons/ai";
 
@@ -11,7 +12,7 @@ const Home = () => {
     const menu4 = "선배와의\n대화\n-부록-";
     const menu5 = "총정모\n만족도조사";
     const menu6 = "뒤풀이\n가이드";
-    const open = "오\n픈\n카\n톡";
+    const open = "오픈카톡";
     return (
         <div id="main">
             <div id="main_title">
@@ -19,8 +20,10 @@ const Home = () => {
                     <img src={logo} id="logo" alt="logo" />
                 </div>
                 <div id="title">총정모 길라잡이</div>
-                <div id="main_openChatLink">
-                    <Link to="/" id="openChatLink">{open}</Link>
+                <div id="main_openChatLink">  
+                    <a href="https://open.kakao.com/o/gRyHiq1e" id="openChatLink">
+                        <img src={opentalk} className="openlogo"/>{open}
+                    </a>
                 </div>
             </div>
             <div id="main_menuBox">

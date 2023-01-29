@@ -41,7 +41,7 @@
   height: 10vmin;
   pointer-events: none;
   background-color: white;
-  border-radius: 30%;
+  border-radius: 100%;
 }
 
 #title {
@@ -51,19 +51,23 @@
   padding-right: 3vw;
 }
 
+/* 오픈카톡 버튼 */
 #main_openChatLink {
-  background-color: azure;
   width: 10vw;
   padding: 1vw;
   font-size: 3vmin;
-  border-radius: 30%;
   white-space: pre-wrap;
 }
-
 #openChatLink {
+  font-size: 2vw;
   text-decoration: none;
-  color:black;
+  color: rgb(245, 225, 62);
 }
+.openlogo {
+  width: 10vw;
+  object-fit: cover;
+}
+
 
 #menuContents{
   list-style-type: none;
