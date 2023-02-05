@@ -4,7 +4,7 @@ const Menu7 = () => {
 
     return (
         <div style={{paddingBottom:'80vh'}}>
-            소모임 홍보
+            만족도 조사
         </div>
     )
 }

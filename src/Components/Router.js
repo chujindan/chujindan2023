@@ -8,6 +8,7 @@ import Menu5 from "../Routes/Menu5";
 import Menu6 from "../Routes/Menu6";
 import Menu7 from "../Routes/Menu7";
 import Menu8 from "../Routes/Menu8";
+import Seat from "../Routes/Seat";
 
 
 const AppRouter = () => {
@@ -22,6 +23,7 @@ const AppRouter = () => {
                 <Route exact path="/guide" element={<Menu6 />} />
                 <Route exact path="/clubAd" element={<Menu7 />} />
                 <Route exact path="/survey" element={<Menu8 />} />
+                <Route exact path="/whereIsMySeat" element={<Seat />} />
             </Routes>
         </Router>
     );
