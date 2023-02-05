@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/chujindan2023/static/css/main.b0988b50.css",
-    "main.js": "/chujindan2023/static/js/main.c1c2330b.js",
+    "main.css": "/chujindan2023/static/css/main.413a71b6.css",
+    "main.js": "/chujindan2023/static/js/main.1b03b23e.js",
     "static/media/ROKG_R.ttf": "/chujindan2023/static/media/ROKG_R.b9efd85180365a5904d1.ttf",
+    "static/media/timetable.jpg": "/chujindan2023/static/media/timetable.cf59e7ec8ae0232d92bf.jpg",
+    "static/media/selfIntro.jpg": "/chujindan2023/static/media/selfIntro.3614221a0d1cc05ab6b2.jpg",
+    "static/media/drinkGuide2.jpg": "/chujindan2023/static/media/drinkGuide2.10f82f082f476d062180.jpg",
+    "static/media/drinkGuide1.jpg": "/chujindan2023/static/media/drinkGuide1.0cd1d6f7fce359920def.jpg",
+    "static/media/drinkGuide3.jpg": "/chujindan2023/static/media/drinkGuide3.585e74bd21aa79c47e8f.jpg",
     "static/media/logo.png": "/chujindan2023/static/media/logo.915fb1be8dc5a85d79e2.png",
-    "static/media/opentalk.png": "/chujindan2023/static/media/opentalk.346541fbac3e8da8e0c1.png",
     "index.html": "/chujindan2023/index.html",
-    "main.b0988b50.css.map": "/chujindan2023/static/css/main.b0988b50.css.map",
-    "main.c1c2330b.js.map": "/chujindan2023/static/js/main.c1c2330b.js.map"
+    "main.413a71b6.css.map": "/chujindan2023/static/css/main.413a71b6.css.map",
+    "main.1b03b23e.js.map": "/chujindan2023/static/js/main.1b03b23e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0988b50.css",
-    "static/js/main.c1c2330b.js"
+    "static/css/main.413a71b6.css",
+    "static/js/main.1b03b23e.js"
   ]
 }
