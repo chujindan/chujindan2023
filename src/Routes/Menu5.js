@@ -4,7 +4,7 @@ const Menu5 = () => {
 
     return (
         <div style={{paddingBottom:'80vh'}}>
-            총정모 만족도조사
+            선배님와의 대화 -부록-
         </div>
     )
 }

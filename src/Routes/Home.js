@@ -7,12 +7,17 @@ import { AiOutlineAppstore, AiOutlineTeam, AiOutlineQuestionCircle, AiOutlineCom
 const Home = () => {
 
     const menu1 = "총정모\n프로그램";
-    const menu2 = "총정모\n추진단";
-    const menu3 = "선배에게\n묻습니다";
-    const menu4 = "선배와의\n대화\n-부록-";
-    const menu5 = "총정모\n만족도조사";
+    const menu2 = "총정모\n추진단원";
+    const menu3 = "총정모\n오픈채팅방";
+    const menu4 = "선배님께\n묻습니다";
+    const menu5 = "선배님과의\n대화\n-부록-";
     const menu6 = "뒤풀이\n가이드";
-    const open = "오픈카톡";
+
+    const menu7 = "소모임에 관심있어요!";
+
+    const openkatalkLink = "https://open.kakao.com/o/gRyHiq1e";
+    const questionLink = "https://docs.google.com/forms/d/e/1FAIpQLSdZtYjBipwVkaKQUgXsrOV8MsG5GT5bI0VpubdJzA9d-XWuag/viewform";
+
     return (
         <div id="main">
             <div id="main_title">
@@ -20,25 +25,32 @@ const Home = () => {
                     <img src={logo} id="logo" alt="logo" />
                 </div>
                 <div id="title">총정모 길라잡이</div> 
-                <div id="main_openChatLink">  
-                    <a href="https://open.kakao.com/o/gRyHiq1e" id="openChatLink">
-                        <img src={opentalk} className="openlogo"/>{open} 
-                    </a>
-                </div>
             </div>
             <div id="main_menuBox">
                 <ul id="menuContents">
                     <div className="contentsRow">
                         <Link to="/programs" className="content"><AiOutlineAppstore size={"50%"} />{menu1}</Link>
-                        <Link to="/chujindan" className="content"><AiOutlineTeam size={"50%"} />{menu2}</Link>
+                        <Link to="/chujindanMembers" className="content"><AiOutlineTeam size={"50%"} />{menu2}</Link>
                     </div>
                     <div className="contentsRow">
-                        <Link to="/question" className="content"><AiOutlineQuestionCircle size={"50%"} />{menu3}</Link>
-                        <Link to="/talk" className="content"><AiOutlineComment size={"50%"} />{menu4}</Link>
+                        <div className="content"> 
+                            <a href={openkatalkLink} className="content2" target="_blank">
+                                <div><img src={opentalk} width={"50%"} /></div>
+                                {menu3}
+                            </a>
+                        </div>
+                        <div className="content"> 
+                            <a href={questionLink} className="content2" target="_blank" >
+                                <AiOutlineQuestionCircle size={"50%"} />{menu4}
+                            </a>
+                        </div>
                     </div>
                     <div className="contentsRow">
-                        <Link to="/survey" className="content"><AiOutlineLike size={"50%"} />{menu5}</Link>
+                        <Link to="/talk" className="content"><AiOutlineComment size={"50%"} />{menu5}</Link>
                         <Link to="/guide" className="content"><AiOutlineFileDone size={"50%"} />{menu6}</Link>
+                    </div>
+                    <div className="contentsRow">
+                        <Link to="/clubAd" className="content3">{menu7}</Link>
                     </div>
                 </ul>
 
@@ -46,6 +58,6 @@ const Home = () => {
         </div>
     )
 
-}
+} //
 
 export default Home;

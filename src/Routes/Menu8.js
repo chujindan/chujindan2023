@@ -1,12 +1,12 @@
 import React from "react";
 
-const Menu4 = () => {
+const Menu8 = () => {
 
     return (
         <div style={{paddingBottom:'80vh'}}>
-            선배와의 대화 -부록-
+            만족도 조사
         </div>
     )
 }
 
-export default Menu4
+export default Menu8
