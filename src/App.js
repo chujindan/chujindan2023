@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <AppRouter />
         <footer id="tail" style={{paddingTop: "1vh"}}>
-          <div> &copy; 2023 5급 공채 총정모 추진단 </div>
+          <div> &copy; 2022~2023 5급 공채 총정모 추진단 </div>
           <div style={{display:"flex", justifyContent: "flex-start", width:"100%"}}> 
             <div style={{marginRight:"10px"}}>단장 정유나 📱010-7153-6227</div>
             <div>부단장 김현수 📱010-2385-0744</div>
