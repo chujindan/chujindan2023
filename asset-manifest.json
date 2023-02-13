@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/chujindan2023/static/css/main.83538299.css",
-    "main.js": "/chujindan2023/static/js/main.e74b21ed.js",
+    "main.js": "/chujindan2023/static/js/main.c2de1367.js",
     "static/media/ROKG_R.ttf": "/chujindan2023/static/media/ROKG_R.b9efd85180365a5904d1.ttf",
-    "static/media/seatTable.png": "/chujindan2023/static/media/seatTable.bfed6c943e8658076b4d.png",
     "static/media/026.png": "/chujindan2023/static/media/026.ce90f4aa5ba2a88501e3.png",
     "static/media/017.png": "/chujindan2023/static/media/017.aca98e90448956e1bb87.png",
     "static/media/001.png": "/chujindan2023/static/media/001.d6c09aa7b25897f35ece.png",
@@ -16,6 +15,7 @@
     "static/media/020.png": "/chujindan2023/static/media/020.7d7e9f91335fa8baaa0d.png",
     "static/media/028.png": "/chujindan2023/static/media/028.4b765ce5c8dab4127ea5.png",
     "static/media/007.png": "/chujindan2023/static/media/007.67d73318e69ff5481ce7.png",
+    "static/media/seatTable.jpg": "/chujindan2023/static/media/seatTable.505786da0339e05a723a.jpg",
     "static/media/024.png": "/chujindan2023/static/media/024.80a9439330b2921fc6e6.png",
     "static/media/003.png": "/chujindan2023/static/media/003.d59d6c8848d16187b26b.png",
     "static/media/016.png": "/chujindan2023/static/media/016.eed613cc173d33188a94.png",
@@ -41,10 +41,10 @@
     "static/media/logo.png": "/chujindan2023/static/media/logo.915fb1be8dc5a85d79e2.png",
     "index.html": "/chujindan2023/index.html",
     "main.83538299.css.map": "/chujindan2023/static/css/main.83538299.css.map",
-    "main.e74b21ed.js.map": "/chujindan2023/static/js/main.e74b21ed.js.map"
+    "main.c2de1367.js.map": "/chujindan2023/static/js/main.c2de1367.js.map"
   },
   "entrypoints": [
     "static/css/main.83538299.css",
-    "static/js/main.e74b21ed.js"
+    "static/js/main.c2de1367.js"
   ]
 }
