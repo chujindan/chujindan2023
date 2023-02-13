@@ -13,12 +13,13 @@ const Home = () => {
     const menu5 = "선배님과의\n대화\n-부록-";
     const menu6 = "뒤풀이\n가이드";
 
-    const menu7 = "총정모 만족도 조사";
     const seatText = "테이블 자리표";
+    const surveyText = "총정모 만족도 조사";
 
     const openkatalkLink = "https://open.kakao.com/o/gRyHiq1e";
     const questionLink = "https://docs.google.com/forms/d/e/1FAIpQLSdZtYjBipwVkaKQUgXsrOV8MsG5GT5bI0VpubdJzA9d-XWuag/viewform";
-
+    const surveyLink = "https://docs.google.com/forms/d/e/1FAIpQLScFHOxV87wKDAeEC1rbZHI35j9kKsXp79MshrNWuKB01aS5Ew/viewform"
+    
     return (
         <div id="main">
             <div id="main_title">
@@ -52,7 +53,7 @@ const Home = () => {
                     </div>
                     <div className="contentsRow">
                         <Link to="/whereIsMySeat" className="content3">{seatText}</Link>
-                        <Link to="/clubAd" className="content3">{menu7}</Link>
+                        <a href={surveyLink} className="content3" target="_blank" >{surveyText}</a>
                     </div>
                 </ul>
 
