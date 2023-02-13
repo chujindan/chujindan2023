@@ -1,10 +1,39 @@
 {
   "files": {
     "main.css": "/chujindan2023/static/css/main.83538299.css",
-    "main.js": "/chujindan2023/static/js/main.a55cde7c.js",
+    "main.js": "/chujindan2023/static/js/main.e8e56196.js",
     "static/media/ROKG_R.ttf": "/chujindan2023/static/media/ROKG_R.b9efd85180365a5904d1.ttf",
+    "static/media/026.png": "/chujindan2023/static/media/026.ce90f4aa5ba2a88501e3.png",
+    "static/media/017.png": "/chujindan2023/static/media/017.aca98e90448956e1bb87.png",
+    "static/media/001.png": "/chujindan2023/static/media/001.d6c09aa7b25897f35ece.png",
+    "static/media/025.png": "/chujindan2023/static/media/025.024118e1e9cb27eda4c6.png",
+    "static/media/027.png": "/chujindan2023/static/media/027.01bf82d27f08839123d4.png",
+    "static/media/018.png": "/chujindan2023/static/media/018.366b654d8acb6da3c53e.png",
+    "static/media/022.png": "/chujindan2023/static/media/022.62b7847fca1fdaa2d68a.png",
+    "static/media/008.png": "/chujindan2023/static/media/008.fc1f13cd6b83ff6a3c65.png",
+    "static/media/023.png": "/chujindan2023/static/media/023.207b1f551b91f1aea642.png",
+    "static/media/020.png": "/chujindan2023/static/media/020.7d7e9f91335fa8baaa0d.png",
+    "static/media/028.png": "/chujindan2023/static/media/028.4b765ce5c8dab4127ea5.png",
+    "static/media/007.png": "/chujindan2023/static/media/007.67d73318e69ff5481ce7.png",
+    "static/media/024.png": "/chujindan2023/static/media/024.80a9439330b2921fc6e6.png",
+    "static/media/003.png": "/chujindan2023/static/media/003.d59d6c8848d16187b26b.png",
+    "static/media/016.png": "/chujindan2023/static/media/016.eed613cc173d33188a94.png",
+    "static/media/012.png": "/chujindan2023/static/media/012.643e0538644d935a1bc4.png",
+    "static/media/004.png": "/chujindan2023/static/media/004.b24ab42ff70f5e87bc83.png",
+    "static/media/019.png": "/chujindan2023/static/media/019.11c063c79bd84eb47a95.png",
+    "static/media/014.png": "/chujindan2023/static/media/014.f8ce423d6ece23b6ecb9.png",
+    "static/media/011.png": "/chujindan2023/static/media/011.c15c4941a1339406d788.png",
+    "static/media/010.png": "/chujindan2023/static/media/010.ab7e88b443a11afbe13e.png",
+    "static/media/015.png": "/chujindan2023/static/media/015.f7876b5cb9a3dda44cfc.png",
+    "static/media/009.png": "/chujindan2023/static/media/009.2510d215c7cbf953bd99.png",
+    "static/media/021.png": "/chujindan2023/static/media/021.a41ef1fc2314dd27d54f.png",
+    "static/media/013.png": "/chujindan2023/static/media/013.872ec45f809baf865a72.png",
+    "static/media/005.png": "/chujindan2023/static/media/005.b07a81ea4e12777c80be.png",
+    "static/media/029.png": "/chujindan2023/static/media/029.f330b20578c633a1893b.png",
+    "static/media/006.png": "/chujindan2023/static/media/006.4f6aa4edd52e3f38fd99.png",
     "static/media/timetable.jpg": "/chujindan2023/static/media/timetable.cf59e7ec8ae0232d92bf.jpg",
     "static/media/selfIntro.jpg": "/chujindan2023/static/media/selfIntro.3614221a0d1cc05ab6b2.jpg",
+    "static/media/002.png": "/chujindan2023/static/media/002.561a05e1e638adaaeff9.png",
     "static/media/drinkGuide2.jpg": "/chujindan2023/static/media/drinkGuide2.10f82f082f476d062180.jpg",
     "static/media/drinkGuide1.jpg": "/chujindan2023/static/media/drinkGuide1.0cd1d6f7fce359920def.jpg",
     "static/media/drinkGuide3.jpg": "/chujindan2023/static/media/drinkGuide3.585e74bd21aa79c47e8f.jpg",
@@ -12,10 +41,10 @@
     "static/media/seatTable.png": "/chujindan2023/static/media/seatTable.a905fbde52ee0bbe9953.png",
     "index.html": "/chujindan2023/index.html",
     "main.83538299.css.map": "/chujindan2023/static/css/main.83538299.css.map",
-    "main.a55cde7c.js.map": "/chujindan2023/static/js/main.a55cde7c.js.map"
+    "main.e8e56196.js.map": "/chujindan2023/static/js/main.e8e56196.js.map"
   },
   "entrypoints": [
     "static/css/main.83538299.css",
-    "static/js/main.a55cde7c.js"
+    "static/js/main.e8e56196.js"
   ]
 }
