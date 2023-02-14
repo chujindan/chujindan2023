@@ -1,5 +1,5 @@
 import React from "react";
-import seatTable from '../seatTable.png';
+import seatTable from '../seatTable.jpg';
 import { Link } from "react-router-dom";
 import { AiOutlineInsertRowAbove } from "react-icons/ai";
 
